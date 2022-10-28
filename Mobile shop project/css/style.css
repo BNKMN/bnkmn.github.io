@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav1{
+    height: 90px;
+    box-shadow: rgb(151, 187, 175);
+    background-color: rgb(98, 165, 165);
+}
+.nav1 div{
+    display: inline-block;
+}
+.nav1 ul{
+    display: inline-block;
+    float: right;
+    
+}
+.li1{
+    display: inline-block;  
+    margin-top: 30px;
+    margin-right: 40px;
+}
+.li1 a:hover{
+    color:rgb(110, 193, 193);
+}
+
+.nav1 ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+.nav1 div a{
+    margin-top: 30px;
+    margin-left: 50px;
+    display: inline-block;
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(116, 217, 217);
+    font-size: 32px;
+}
+.sp{
+    position: relative;
+    top: -16px;
+    background-color: black;
+    color: white;
+    padding: 0px 7px;
+    border-radius: 50%;
+    left: -7px;
+}
+/* start bunner */
+.bunner-img{
+    width: 100%;  
+}
+.bunner{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+.sn{
+    border-radius: 5px;
+    padding: 3px 7px;
+}
+.sn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+/* end bunner */
+.head{
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+/* start categeory */
+.iteam{
+    margin: 4px;
+    padding: 7px;
+    border-radius: 5px;
+
+}
+.iteam:hover{
+    background-color:  rgb(94, 161, 161);
+    color: black;
+}
+
+/* start new arrival */
+.new-a{
+    border-left: 4px solid rgb(115, 226, 226);
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-left: 40px;
+}
+.new-arrival{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+    grid-row-gap: 30px;
+}
+.new-arrival div a img{
+    height: 200px;
+}
+
+/* start blog */
+.new_arrival_blog{
+    border-left: 4px solid rgb(115, 226, 226);
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-left: 40px;
+}
+.blog{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 70px;
+    padding-top: 40px;
+    margin-right: 70px;
+    grid-column-gap: 30px;
+}
+.blog div{
+    box-shadow: 3px 4px 5px rgb(90, 88, 88);
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.bimg{
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    transition: 3s ease;
+}
+
+.blog div h3{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+.bimg:hover{
+    transform: scale(1.2);
+    border-radius: 5px 5px 0px 0px
+}
+.b-img{
+    width: 100%;
+    height: 220px;
+    display: inline-block;
+    overflow: hidden;
+}
+.rm{
+    color: rgb(110, 193, 193);
+    margin-top: 10px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+
+}
+/* end blog */
+
+
+/* avaliable product */
+
+.avaliable-img{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-image: url(../images/na3.jpg);
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(ace);
+}
+.avaliable-img:hover{
+    background-image: url(../images/na1.png);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+}
+.more_iteam{
+    text-align: center;
+    margin-top: 40px;
+}
+.more_iteam a{
+    color: rgb(110, 193, 193);
+}
+
+/* start support */
+.support div p{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.support{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 40px;
+    padding: 40px;
+    background-color: rgb(140, 144, 144);
+}
+.support div{
+    padding-left: 40px;
+}
+.support div b{
+    font-size: large;
+}
+
+/* footer */
+.support div p{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.support{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 40px;
+    padding: 40px;
+    background-color: rgb(140, 144, 144);
+}
+.support div{
+    padding-left: 40px;
+}
+.support div b{
+    font-size: large;
+}
+.footer{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-a{
+    color: gray;
+    margin: 0px 16px;
+    text-decoration: none;
+}
+.Design{
+    color: gray;
+    margin-top: 20px;
+}
+.footer-icon{
+    color: gray;
+    display: inline-block;
+    margin: 20px 10px;
+}

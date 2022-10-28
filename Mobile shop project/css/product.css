@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav1{
+    height: 90px;
+    box-shadow: rgb(151, 187, 175);
+    background-color: rgb(99, 165, 165);
+}
+.nav1 div{
+    display: inline-block;
+}
+.nav1 ul{
+    display: inline-block;
+    float: right;
+    
+}
+.li1{
+    display: inline-block;  
+    margin-top: 30px;
+    margin-right: 40px;
+}
+.li1 a:hover{
+    color:rgb(163, 220, 220);
+}
+
+.nav1 ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+.nav1 div a{
+    margin-top: 30px;
+    margin-left: 50px;
+    display: inline-block;
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(116, 217, 217);
+    font-size: 32px;
+}
+.sp{
+    position: relative;
+    top: -16px;
+    background-color: black;
+    color: white;
+    padding: 0px 7px;
+    border-radius: 50%;
+    left: -7px;
+}
+/* start product */
+.search{
+    margin-top: 40px;
+}
+.search_bar{
+    width: 450px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+/* huawei */
+.huawei{
+    padding-left: 10px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.huawei_iteam{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-top: 40px;
+    margin-left: 65px;
+}
+.huawei_iteam div p{
+    text-align: center;
+    margin-top: 4px;
+    font-size: large;
+}
+.huawei_iteam div{
+    width: 200px;
+    height: 250px;
+}
+/* end huawei */
+.sm{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(46, 44, 44);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* start iphone */
+.iphone,.iphone-13,.samsung{
+    padding-left: 10px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.iphone-new{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 40px;
+    margin-left: 170px;
+}
+.iphone-new div{
+    width: 300px;
+    border-radius: 5px;
+}
+.iphone-new div p{
+    text-align: center;
+    font-size: large;
+}
+.iphone-text{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+    border-bottom: 1px solid black;
+}
+.iphone-text i{
+    size: 4px;
+}    
+.iphone-iteam{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.iphone-iteam div{
+    width: 200px;
+}
+.iphone-iteam div p{
+    text-align: center;
+    font-size: large;
+}
+/* start samsung */
+.samsung-iteam{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.samsung-iteam div{
+    width: 200px;
+}
+.samsung-iteam div p{
+    text-align: center;
+    margin-top: 5px;
+    font-size: large;
+}
+.support div p{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.support{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 40px;
+    padding: 40px;
+    background-color: rgb(140, 144, 144);
+}
+.support div{
+    padding-left: 40px;
+}
+.support div b{
+    font-size: large;
+}
+/* footer */
+.footer{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-a{
+    color: gray;
+    margin: 0px 16px;
+    text-decoration: none;
+}
+.Design{
+    color: gray;
+    margin-top: 20px;
+}
+.footer-icon{
+    color: gray;
+    display: inline-block;
+    margin: 20px 10px;
+}
